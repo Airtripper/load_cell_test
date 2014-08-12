@@ -1,5 +1,4 @@
-load-cell-test
-==============
+load_cell_test.ino
 
 Arduino sketch to calibrate the INA125 chip with attached load cell, and output weight in grammes.
 
