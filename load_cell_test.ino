@@ -78,7 +78,7 @@ long time = 0;  // Set time to mark start of delay
 int plotDelay = 10; // Time gap between plots for display or graph
 
 void setup() {
-  analogReference(EXTERNAL);
+  // analogReference(EXTERNAL); // 
   if (calibrate) {
     Serial.begin(9600);  // Set a slower boadrate for calibration
     plotDelay = 500;  // Slow the readings output to display for calibration
